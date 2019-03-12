@@ -7,4 +7,5 @@ npm install
 react-native run-ios
 react-native run-android
 ```
-### How to solve
+![tictactoe](https://user-images.githubusercontent.com/28338493/54199690-90e04480-44ef-11e9-95f8-0dad0ee0f0ab.gif)
+
