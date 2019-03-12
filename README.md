@@ -9,5 +9,7 @@ react-native run-android
 ```
 
 ![ezgif com-resize](https://user-images.githubusercontent.com/28338493/54200285-0dbfee00-44f1-11e9-978b-b9e7dfaa49aa.gif)
+
+
   
 
