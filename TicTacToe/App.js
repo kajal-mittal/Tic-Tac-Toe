@@ -7,8 +7,9 @@
  */
 
 import React, { Component } from 'react';
-import { StyleSheet, View, TouchableOpacity, Image, Alert, Button } from 'react-native';
-
+import { StyleSheet, View, TouchableOpacity, Alert, Button } from 'react-native';
+import Circle from './Circle';
+import Cross from './Cross'
 export default class App extends Component {
 	constructor(props) {
 		super(props);
@@ -172,10 +173,10 @@ export default class App extends Component {
 		let value = this.state.gameState[row][col];
 		switch (value) {
 			case 1:
-				return <Image source={require('./close.png')} />;
+				return <Cross  />;
 
 			case -1:
-				return <Image source={require('./circle-outline.png')} />;
+				return <Circle />;
 
 			default:
 				return <View />;
